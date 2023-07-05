@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/meback"
+    tools:context=".Userfirstrequestview">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="View Request"
+        android:textColor="#0E0D0D"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp" />
+
+
+    <!--    <RadioGroup-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_height="wrap_content" >-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/metro"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textColorHint="#ffff"-->
+
+    <!--            android:checked="true"-->
+    <!--            android:text="Metro"-->
+    <!--            android:textColor="#F3EAEA" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/taxi"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textColorHint="#ffff"-->
+
+    <!--            android:text="Taxi"-->
+    <!--            android:textColor="#EFE6E6" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/auto"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textColorHint="#ffff"-->
+
+    <!--            android:text="Auto"-->
+    <!--            android:textColor="#EFE6E6" />-->
+
+
+    <!--    </RadioGroup>-->
+
+
+</LinearLayout>

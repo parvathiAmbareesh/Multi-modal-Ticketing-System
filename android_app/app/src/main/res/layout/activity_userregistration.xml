@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:gravity="center"
+
+    android:background="@drawable/meback"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Userregistration">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:text="Sign Up"
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="House Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Enter your number"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+    <EditText
+        android:id="@+id/etplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="place"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#121010"
+        android:textColorHint="#878787" />
+
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="USERNAME"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#878787"/>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#878787" />
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="#131313"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+
+
+
+
+
+
+
+
+
+    <!--    <RadioGroup-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="05dp"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/radioButton"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:checked="true"-->
+    <!--            android:text="Female" />-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/radioButton2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Male" />-->
+    <!--    </RadioGroup>-->
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

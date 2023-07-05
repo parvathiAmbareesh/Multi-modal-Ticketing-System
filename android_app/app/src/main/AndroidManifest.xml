@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.metrostation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/metrologo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/metrologo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Metrostation"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Addplace"
+            android:exported="false" />
+        <activity
+            android:name=".Userfirstrequestview"
+            android:exported="false" />
+        <activity
+            android:name=".staffhomecar"
+            android:exported="false" />
+        <activity
+            android:name=".staffhomebus"
+            android:exported="false" />
+        <activity
+            android:name=".Userviewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Viewtrancation"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidBarcodeQrExample2"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidBarcodeQrExample4"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidBarcodeQrExample1"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidBarcodeQrExample"
+            android:exported="false" />
+        <activity
+            android:name=".staffhomeboat"
+            android:exported="false" />
+        <activity
+            android:name=".staffhomeauto"
+            android:exported="false" />
+        <activity
+            android:name=".staffhome"
+            android:exported="false" />
+        <activity
+            android:name=".Makepayment"
+            android:exported="false" />
+        <activity
+            android:name=".Addamount"
+            android:exported="false" />
+        <activity
+            android:name=".Userrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Userviewstation"
+            android:exported="false" />
+        <activity
+            android:name=".Userhome"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".View_my_qr"
+            android:exported="false" />
+        <activity
+            android:name=".Ipsettings"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Userregistration"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

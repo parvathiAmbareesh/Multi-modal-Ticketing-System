@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:background="@drawable/meback"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="LOGIN"
+
+
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_add_24"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="enter your username"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#878787" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="enter your password"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#878787" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="#131313"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvtext"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Don't have account?sign up"
+        android:textColor="#0E0E0E"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/delivery"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="#101010"-->
+    <!--        android:text="MECHANIC REGISTERATION" />-->
+
+
+
+
+
+
+
+
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/delivery"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="#101010"-->
+    <!--        android:text="MECHANIC REGISTERATION" />-->
+
+
+</LinearLayout>
